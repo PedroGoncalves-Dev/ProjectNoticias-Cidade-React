@@ -1,7 +1,12 @@
-#root {
-  max-width: 100%;
+.App {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
- border: 5px solid red;
-
 }
-
+.containerApp {
+  margin-top: 50px;
+  border: 1px solid green;
+  box-sizing: border-box;
+}
