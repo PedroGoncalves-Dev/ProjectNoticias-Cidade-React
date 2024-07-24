@@ -37,30 +37,94 @@ const Home  = () => {
                 </div>
 
             </aside>
-            <section className="secaocima">
-                <div className="cabecalho-section">
-                    <h3>Destaque</h3>
+            <section className="conteudosite">
 
-                </div>
-                <div className="conteudo-section">
-                    <span>Nova legislação</span>
-                    <img src="/taxi.jpg" alt="noticia taxi" />
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    <Link to='/destaque'>veja mais...</Link>
-                </div>
-                <div>
+                <section className="secaocima">
 
-                </div>
+                    <div className="conteudo-cima">
+                        <div className="conteudoDentro">
+                            <div className="cabecalho-section">
+                                <h3>Destaque</h3>
+
+                            </div>
+                            <div className="conteudo-section">
+                                <span>Nova legislação</span>
+                                <img src="/taxi.jpg" alt="noticia taxi" />
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <Link to='/destaque'>veja mais...</Link>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div className="conteudo-cima">
+                        <div className="conteudoDentro">
+                            <div className="cabecalho-section">
+                                <h3>Destaque</h3>
+
+                            </div>
+                            <div className="conteudo-section">
+                                <span>Nova legislação</span>
+                                <img src="/taxi.jpg" alt="noticia taxi" />
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <Link to='/destaque'>veja mais...</Link>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                {/*parte de baixo do site*/}
+
+                <section className="section-baixo">
+                
+                    <div className="conteudo-baixo">
+                        <div className="conteudodentro">
+
+                            <div>
+                                <h3>Mundo</h3>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>    
+                    </div>
+
+                    <div className="conteudo-baixo">
+                        <div className="conteudodentro">
+                            <div>
+                                <h3>Notícias recentes</h3>
+                            </div>  
+                            <div>
+                                <ul>
+                                    <li>
+                                        <p>
+                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>  
+
+                        </div>
+                     </div> 
+                
+                
+                </section>
+  
             </section>
-            <section className="secaocima">
-                <div className="cabecalho-section">
-                    <h3>Última entrevista</h3>
-
-                </div>
-            </section>
-
             
         </main>
     )
