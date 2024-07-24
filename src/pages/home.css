@@ -1,0 +1,81 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/*lateral esquerda */
+main aside {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    box-sizing: border-box;
+    width: 20%;
+}
+aside nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cad{
+    background-image: url('../assets/fundo-caixa.png');
+}
+
+
+
+/*meio */
+
+section{
+    background-image: url('../assets/fundo-caixa.png');
+}
+.secaocima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 37%;
+    height: 400px;
+    
+    box-sizing: border-box;
+}
+.cabecalho-section {
+    background: #294c71;
+    color: #fff;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.conteudo-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    background-color: #fff;
+}
+.conteudo-section img {
+    width: 95%;
+    height: 50%;
+    
+}
+.conteudo-section span{
+align-self: flex-start;    
+text-transform: uppercase;
+font-weight: bolder;
+color: #fff;
+font-size: 0.7em;
+	background-color: #b10333;
+
+    padding: 0 4px;
+    margin-left: 2.5%;
+}
+.conteudo-section p {
+    width: 95%;
+    
+}
+.conteudo-section a {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 2.5%;
+}
